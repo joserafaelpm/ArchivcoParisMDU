@@ -1,0 +1,124 @@
+.container-informacion {
+    width: 100%;
+    display: inline-flex;
+ }
+ 
+ .container-informacion>.columna-1 {
+    padding-top: 1px;
+    width: 50%;
+    padding-left: 25px;
+    padding-right: 35px;
+ }
+ .container-informacion>.columna-1>p {
+    text-align: justify;
+ }
+ 
+ .container-informacion>.columna-2 {
+    padding-top: 1px;
+    width: 50%;
+ }
+
+
+.opcion{
+    cursor: pointer;
+    padding: 6px;
+    text-align: justify;
+}
+
+#contenedor-opciones{
+    border-left: 1px solid rgba(255, 0, 0, 0.493) ;
+    border-right:1px solid rgba(255, 0, 0, 0.493);
+    border-bottom: 1px solid rgba(255, 0, 0, 0.493);
+    padding: 5px;
+}
+.titulocategoria{
+    background-color: rgba(247, 45, 52, 0.815);
+    font-weight: bold;
+    border-top-left-radius:12px;
+    border-top-right-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.b-20{
+    margin-bottom: 20px;
+}
+.noticia{
+    margin-bottom: 20px;
+}
+
+
+.banner-noticia{
+   width: 100%;
+   height: 200px;
+   margin-bottom: 10px;
+}
+
+.img-inicioSesion{
+text-align: center;
+}
+
+
+
+.periodico{
+    width: 50px;
+    height: 50px;
+}
+.titulo{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+}
+
+.titulo-inicio{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+
+}
+.titulo-inicio:hover{
+    color: dimgrey;
+}
+.titulo:hover{
+    color: dimgrey;
+}
+.fecha{
+    padding-left: 40%;
+    font-size: 1.5em;
+    padding-top: 5px;
+    color: white;
+
+}
+
+.encabezado{
+    background-color: rgba(126, 217, 87, 0.815);
+    padding-left: 0.7%;
+    
+}
+.icon{
+    width: 30px;
+    height: 30px;
+}
+
+.f-icon{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.f-icon:hover{
+    color:white;
+}
+.footer{
+    background-color: dimgrey;
+    color: white;
+}
+
+.fin{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+}
+
