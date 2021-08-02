@@ -51,28 +51,42 @@
                     <div id="contenedor-noticias" class="">
                         <div class="noticia">
                             <h3 id="r1">1. Como buscar un estudiante</h3>
-                            <p>Despues de haber ingresado al software seleccionamos el icono de carnet que esta ubicado en la segunda columna de la primera fila</p>
-                            <div class="img-inicioSesion"><img src="../img/buscarestudiante-1.gif" alt="Funny image"> </div>
+                            <p>Despues de haber ingresado al software seleccionamos el icono de carnet que esta ubicado
+                                en la segunda columna de la primera fila</p>
+                            <div class="img-inicioSesion"><img src="../img/buscarestudiante-1.gif" alt="Funny image">
+                            </div>
                         </div>
                         <hr>
                         <div class="noticia">
                             <h3 id="r2">2. Como consultar un estudiante</h3>
-                            <p>Despues de dar click en el icono nos mostrara una ventana donde daremos click en el boton que dice <b>Seleccionar archivo</b>, despues se nos abrira  una venta donde seleccionaremos el archivo que deseamos subir al software. </p>
-                            <p><b>NOTA:</b> recuerda que el archivo tiene que terminar en las extenxion <b>.txt .csv .xlsx .json</b> y que el nombre del archivo debe contener el año que pertenece ejemplo: <b>2015.txt , 2015.csv , 2015.xlsx </b>   </p>
-                            <div class="img-inicioSesion"><img src="../img/buscarestudiante-2.5.gif" alt="Funny image"> </div>
+                            <p>Despues de dar click en el icono nos mostrara una ventana con una tabla y un apartado que
+                                dice <b>nombre</b> donde ingresaremos el nombre del estudiante a consultar, despues de
+                                eso el sistema realizara una consulta a la base datos, recordemos que para que el
+                                estudiante este en el sistema tendremos que haberlo cargado anteriormente en el
+                                aparatado de <a href="subirArchivo.html"><b>Subir archivo</b></a>, si hicimos eso
+                                correctamente el sistema nos mostrara a el o los estudiantes que tenga el mismo nombre
+                                en la tabla donde podremos filtrarlos si queremos por grado y/o año.
+                                <div class="img-inicioSesion"><img src="../img/buscarestudiante-2.5.gif"
+                                        alt="Funny image"> </div>
                         </div>
                         <hr>
                         <div class="noticia">
-                            <h3 id="r3">3. Observamos lo que vamos a subir</h3>
-                            <p>Despues de haber seleccionado la ubicacion donde teniamos el archivo, observaremos el contenido de ese. </p>
-                            <div class="img-inicioSesion"><img src="../img/buscarestudiante-2.5.gif" alt="Funny image"> </div>
+                            <h3 id="r3">3.Verificar la informacion del estudiante</h3>
+                            <p>Despues de haber realizado la consulta del estudiante en el anterior paso, verificamos
+                                que el estudiante tenga su informacion correspondiente a sus notas, haremos eso dando
+                                click en el icono de la lupa que esta ubicado en la columna <b>Info.</b> </p>
+                                <p>Antes de generar un certificado de notas se recomienda validar la informacion del estudiantes por si hubo algun error cuando se dijitaron los datos, si es asi se puede cambiar el usuruio con el rol <b>Rector.</b></p>
+                            <div class="img-inicioSesion"><img src="../img/buscarestudiante-3.gif" alt="Funny image">
+                            </div>
                         </div>
                         <hr>
                         <div class="noticia">
-                            <h3 id="r4">4. Dar click en subir</h3>
-                            <p>Despues de seleccionar el archivo y haber observado el contenido del archivo damos click en el boton <b>Subir</b> y se cargara la informacion a la base de datos.</p>
-                            <p><b>Nota:</b> se cargara exitosamente si cumple los <a href="https://drive.google.com/drive/folders/1PiAnXo1-usHVHBTPJrydkrLvfsSV9hrj?usp=sharing"> formatos establecidos</a> para que el software pueda leerlo.</p>
-                            <div class="img-inicioSesion"><img src="../img/subirarchivo-4.JPG" alt="Funny image"> </div>
+                            <h3 id="r4">4. Generar Certificado</h3>
+                            <p>Despues de haber verificado la informacion del estudiante y que todo este correcto seleccionamos el o los estudiantes que queremos generar el certificado de notas haciendo clik en la primera columna.</p>
+                            <p><b>Nota:</b> si borra la plantilla de certificado de notas la puede <a
+                                    href="https://drive.google.com/drive/folders/1PiAnXo1-usHVHBTPJrydkrLvfsSV9hrj?usp=sharing">
+                                    descargar aca</a> para que el software pueda leerlo y funcione correctamente.</p>
+                            <div class="img-inicioSesion"><img src="../img/buscarestudiante-4.gif" alt="Funny image"> </div>
                         </div>
                     </div>
                 </div>
@@ -85,9 +99,9 @@
                         <hr>
                         <div class="opcion"><a href="#r2">2. Como consultar un estudiante</a></div>
                         <hr>
-                        <div class="opcion"><a href="#r3">3. Observamos lo que vamos a subir</a></div>
+                        <div class="opcion"><a href="#r3">3. Verificar la informacion del estudiante</a></div>
                         <hr>
-                        <div class="opcion"><a href="#r4">4. Dar click en subir</a></div>
+                        <div class="opcion"><a href="#r4">4. Generar Certificado</a></div>
                         <hr>
                     </div>
                 </div>
@@ -97,19 +111,21 @@
 
 
 
-
-    <div class="row">
-        <div class="nose mt-2">
-            <a class="f-icon" href="https://joserafaelpm.github.io/actividad1html/contacto.html"><img
-                    src="../img/iconos/email.png" alt="" class="icon">rojassachicadf@ufps.edu.co</a>
-            <a class="f-icon" href="https://joserafaelpm.github.io/actividad1html/contacto.html"><img
-                    src="../img/iconos/email.png" alt="" class="icon">joserafaelpenamena@gmail.com</a>
+    <footer class="footer">
+        <div class="row">
+            <div class="nose mt-2">
+                <a class="f-icon" href="https://joserafaelpm.github.io/actividad1html/contacto.html"><img
+                        src="../img/iconos/email.png" alt="" class="icon">rojassachicadf@ufps.edu.co</a>
+                <a class="f-icon" href="https://joserafaelpm.github.io/actividad1html/contacto.html"><img
+                        src="../img/iconos/email.png" alt="" class="icon">joserafaelpenamena@gmail.com</a>
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="fin mt-12">
-            copyright &copy;2021 ArchivoParis
+        <div class="row">
+            <div class="fin mt-12">
+                copyright &copy;2021 ArchivoParis
+            </div>
         </div>
-    </div>
+    </footer>
 </body>
+
 </html>
