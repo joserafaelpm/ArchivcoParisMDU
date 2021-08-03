@@ -61,9 +61,10 @@
 .banner-noticia{
    width: auto;
    height: auto;
-   max-height: 325px;
+   max-height: 378px;
    max-width: 100%;
    margin-bottom: 10px;
+   margin-top: 5px;
 }
 
 .img-inicioSesion{
