@@ -4,8 +4,6 @@
     transform: translatex(-50%);
 }
 
-
-
 .container-informacion {
     width: 100%;
     display: inline-flex;
@@ -26,21 +24,13 @@
     width: 50%;
  }
 
-
 .opcion{
     cursor: pointer;
     padding: 6px;
     text-align: justify;
 }
-
-#contenedor-opciones{
-    border-left: 1px solid rgba(255, 0, 0, 0.493) ;
-    border-right:1px solid rgba(255, 0, 0, 0.493);
-    border-bottom: 1px solid rgba(255, 0, 0, 0.493);
-    padding: 5px;
-}
 .titulocategoria{
-    background-color: rgba(247, 45, 52, 0.815);
+    background-color: rgba(45, 166, 247, 0.815);
     font-weight: bold;
     border-top-left-radius:12px;
     border-top-right-radius: 12px;
